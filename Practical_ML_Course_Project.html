@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
-<meta name="author" content="Diego Mu�oz" />
+<meta name="author" content="Diego Muñoz" />
 
 
 <title>Predict activity quality from activity monitors</title>
@@ -53,16 +53,16 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 
 <div id="header">
 <h1 class="title">Predict activity quality from activity monitors</h1>
-<h4 class="author"><em>Onur Akpolat</em></h4>
-<h4 class="date"><em><ol start="24" style="list-style-type: decimal">
-<li>January 2015</li>
+<h4 class="author"><em>Diego Muñoz</em></h4>
+<h4 class="date"><em><ol start="10" style="list-style-type: decimal">
+<li>August 2020</li>
 </ol></em></h4>
 </div>
 
 
 <div id="Summary" class="section level2">
 <h2>Summary</h2>
-<p>Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement – a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it. In this project, your goal will be to use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants. They were asked to perform barbell lifts correctly and incorrectly in 5 different ways.</p>
+<p>Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement â a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it. In this project, your goal will be to use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants. They were asked to perform barbell lifts correctly and incorrectly in 5 different ways.</p>
 <p>The goal of this project is to predict the manner in which they did the exercise. This is the <code>classe</code> variable in the training set.</p>
 </div>
 <div id="data-description" class="section level2">
@@ -156,7 +156,7 @@ subTesting &lt;- training[-subSamples, ]</code></pre>
 </div>
 <div id="expected-out-of-sample-error" class="section level2">
 <h2>Expected out-of-sample error</h2>
-<p>The expected out-of-sample error will correspond to the quantity: 1-accuracy in the cross-validation data. Accuracy is the proportion of correct classified observation over the total sample in the subTesting data set. Expected accuracy is the expected accuracy in the out-of-sample data set (i.e. original testing data set). Thus, the expected value of the out-of-sample error will correspond to the expected number of missclassified observations/total observations in the Test data set, which is the quantity: 1-accuracy found from the cross-validation data set.</p>
+<p>The expected out-of-sample error will correspond to the quantity: 1-accuracy in the cross-validation data. Accuracy is the proportion of correct classified observation over the total sample in the subTesting data set. Expected accuracy is the expected accuracy in the out-of-sample data set (i.e.Â original testing data set). Thus, the expected value of the out-of-sample error will correspond to the expected number of missclassified observations/total observations in the Test data set, which is the quantity: 1-accuracy found from the cross-validation data set.</p>
 </div>
 <div id="exploratory-analysis" class="section level2">
 <h2>Exploratory analysis</h2>
